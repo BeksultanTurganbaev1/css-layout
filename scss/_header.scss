@@ -1,0 +1,15 @@
+@import "vars";
+.header {
+  padding: 49px 0 0;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    display: inline-block;
+    max-width: 255px;
+  }
+  &__logo-img {
+    max-width: 100%;
+  }
+}
