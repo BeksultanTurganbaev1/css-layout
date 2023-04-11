@@ -1,0 +1,93 @@
+@import "vars";
+.category {
+  padding: 214px 0 123px;
+  text-align: center;
+  background-image: url(/img/service-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 95% 230px;
+  background-size: auto;
+  &__title {
+    margin: 0;
+    padding: 0 0 10px;
+    font-family: $main-font-family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+  &__second-title {
+    font-family: $title-font-family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: $title-color;
+  }
+  &__list {
+    margin: 0;
+    padding: 67px 0 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 190px;
+    min-height: 230px;
+    list-style: none;
+    background-image: url(/img/service.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top;
+  }
+  &__item:nth-child(2) {
+    max-width: 302px;
+    min-height: 150px;
+    background-image: url(/img/service1.jpg);
+    background-position: 70% -38px;
+  }
+  &__inner {
+    padding: 0 0 35px 33px;
+    background-image: url(/img/service1-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
+  &__inner-bg {
+    max-width: 267px;
+    min-height: 200px;
+    padding: 0 50px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+      0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+      0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+      0px 20px 13px rgba(0, 0, 0, 0.01),
+      0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+      0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 36px;
+    background-color: #fff;
+  }
+  &__item:nth-child(3) {
+    background-image: url(/img/service2.jpg);
+  }
+  &__item:nth-child(4) {
+    background-image: url(/img/service3.jpg);
+  }
+  &__inner-title {
+    margin: 107px 0 15px;
+    font-family: $category-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #1e1d4c;
+  }
+  &__inner-descr {
+    font-family: $main-font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+}
