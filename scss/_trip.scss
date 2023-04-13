@@ -1,0 +1,71 @@
+@import "vars";
+.trip {
+  &__inner {
+    // display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &__descr {
+    margin: 0 0 15px;
+    padding: 0;
+    font-family: $main-font-family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  &__title {
+    margin: 0 0 31px;
+    padding: 0;
+    font-family: $title-font-family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: $title-color;
+  }
+  &__list {
+    margin: 0;
+    padding: 0;
+    max-width: 395px;
+    min-height: 289px;
+    // display: flex;
+  }
+  &__item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-image: url(/img/book-trip.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto;
+  }
+  &__item:nth-child(2) {
+    background-image: url(/img/book-trip1.jpg);
+  }
+  &__item:nth-child(3) {
+    background-image: url(/img/book-trip2.jpg);
+  }
+  &__item-col {
+    padding: 0 0 48px 68px;
+  }
+  &__item-title {
+    margin: 0;
+    padding: 0 0 4px;
+    font-family: $main-font-family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 124.5%;
+  }
+  &__item-descr {
+    margin: 0;
+    padding: 0;
+    font-family: $main-font-family;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.5%;
+  }
+}
