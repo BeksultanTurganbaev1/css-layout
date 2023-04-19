@@ -1,0 +1,64 @@
+@import "vars";
+.subscribe {
+  padding: 0 0 166px;
+  background-image: url(/img/sunscribe-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 95% 72%;
+  &__inner {
+    width: 1080px;
+    min-height: 407px;
+    background-color: rgba(223, 215, 249, 0.2);
+    border-radius: 129px 30px 20px 20px;
+    text-align: center;
+    background-image: url(/img/mail-bg2-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+  }
+  &__title {
+    margin: 0 auto;
+    padding: 79px 0 74px;
+    max-width: 881px;
+    font-family: $main-font-family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 54px;
+    color: #5e6282;
+    text-align: center;
+  }
+  &__email {
+    width: 421px;
+    min-height: 68px;
+    padding: 25px 281px 26px 66px;
+    font-family: $mail-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    background: #ffffff;
+    border-radius: 10px;
+    background-image: url(/img/mail.jpg);
+    background-repeat: no-repeat;
+    background-position: 31px center;
+    background-size: auto;
+    border: none;
+  }
+  &__btn {
+    margin-left: 24px;
+    width: 180px;
+    min-height: 68px;
+    font-family: $category-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+    border-radius: 10px;
+    border: none;
+  }
+}
+::placeholder {
+  color: #39425d;
+}
